@@ -9,13 +9,25 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
     "web-vitals": "^2.1.4"
   },
+  "author": {
+    "name": "Сергей Мурашов",
+    "email": "kadetka274@gmail.com",
+    "url": "https://www.instagram.com/skymirs/"
+  },
+  "main": "electron/main.js",
+  "productName": "Расчет роспуска боевых порядков",
   "scripts": {
-    "start": "react-scripts start",
+    "start": " react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron .",
+    "build-electron": "mkdir build/electron && cp -r electron/. build/electron",
+    "package": "electron-builder build --win -c.extraMetadata.main=build/electron/main.js --publish never"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "electron": "^18.2.0"
   }
 }

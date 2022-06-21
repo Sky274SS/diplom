@@ -1,0 +1,81 @@
+[
+  [
+    {
+      "inputName": "n",
+      "subInputName": "c",
+      "placeholder": "количество наведений истребителей",
+      "storeName": "nc"
+    },
+    {
+      "inputName": "S",
+      "subInputName": "иа",
+      "placeholder": "длина участка маршрута полета предполагаемого воздейтствия ИА противника, км",
+      "storeName": "Sua"
+    },
+
+    {
+      "inputName": "S",
+      "subInputName": "зрк",
+      "placeholder": "длина участка маршрута полета в зонах поражения ЗРК, км",
+      "storeName": "Szrk"
+    },
+    {
+      "inputName": "L",
+      "subInputName": "бп",
+      "placeholder": "глубина боевого порядка аэ, км",
+      "storeName": "Lbp"
+    },
+    {
+      "inputName": "V",
+      "subInputName": "ц",
+      "placeholder": "скорость самолетов боевого порядка, км/мин",
+      "storeName": "Vc"
+    },
+    {
+      "inputName": "t",
+      "subInputName": "цикл",
+      "placeholder": "время цикла наведения истребителей, мин",
+      "storeName": "tc"
+    }
+  ],
+  [
+    {
+      "inputName": "N",
+      "subInputName": "ИА об",
+      "placeholder": "количество обеспечивающих истребителей",
+      "storeName": "nIa"
+    },
+    {
+      "inputName": "K",
+      "subInputName": "бп об",
+      "placeholder": "Коэффициент боевых возможностей истребителей обеспечения",
+      "storeName": "kOb"
+    },
+    {
+      "inputName": "K",
+      "subInputName": "бп прот",
+      "placeholder": "Коэффициент боевых возможностей истребителей противника",
+      "storeName": "kProt"
+    }
+  ],
+  [
+    {
+      "inputName": "n",
+      "subInputName": "p1",
+      "placeholder": "боекомплект ракет одного истребителя",
+      "storeName": "nP1"
+    },
+    {
+      "inputName": "H",
+      "subInputName": "пол",
+      "placeholder": "Высота полета",
+      "storeName": "hPol"
+    },
+    {
+      "inputName": "N",
+      "subInputName": "ц",
+      "placeholder": "Количество самолетов",
+      "storeName": "nPlane"
+    }
+  ]
+]

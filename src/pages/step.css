@@ -1,0 +1,47 @@
+.label {
+    font-size: 20px;
+}
+
+.span {
+    font-size: 15px;
+}
+
+.fighters {
+    display: grid;
+    justify-items: center;
+}
+
+.fighters > h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.fightersOneContainer {
+    display: grid;
+    justify-items: center;
+}
+
+.inputs {
+    display: grid;
+    width: 80vw;
+}
+
+.inputs > div {
+    margin: 10px;
+}
+
+.label > input {
+    margin-left: 20px;
+    width: 650px;
+    outline: none;
+    border: none;
+    background: rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.label {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+
+}
