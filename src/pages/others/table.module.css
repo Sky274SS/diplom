@@ -1,0 +1,25 @@
+.table{
+    display: grid;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    background: rgba(1, 86, 102, 0.9);
+    color: #5FBDCE;
+    overflow-y: scroll;
+    max-height: 350px;
+    text-align: center;
+    width: 600px;
+    border-radius: 15px;
+    transition: 1s all;
+}
+.table::-webkit-scrollbar {
+    background: rgba(1, 86, 102, 0.9);
+}
+.table::-webkit-scrollbar-thumb{
+    background: #5FBDCE;
+    border-radius: 20px;
+}
+
+.table span{
+    font-size: 15px;
+}

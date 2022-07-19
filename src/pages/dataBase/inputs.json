@@ -43,13 +43,19 @@
       "inputName": "N",
       "subInputName": "ИА об",
       "placeholder": "количество обеспечивающих истребителей",
-      "storeName": "nIa"
+      "storeName": "nIaOb"
     },
     {
       "inputName": "K",
       "subInputName": "бп об",
       "placeholder": "Коэффициент боевых возможностей истребителей обеспечения",
       "storeName": "kOb"
+    },
+    {
+      "inputName": "N",
+      "subInputName": "ИА прот",
+      "placeholder": "количество истребителей противника",
+      "storeName": "nIaProt"
     },
     {
       "inputName": "K",
@@ -74,8 +80,96 @@
     {
       "inputName": "N",
       "subInputName": "ц",
-      "placeholder": "Количество самолетов",
+      "placeholder": "Количество самолетов в боевом порядке",
       "storeName": "nPlane"
+    }
+  ],
+  [
+    {
+      "inputName": "S",
+      "subInputName": "зрк",
+      "placeholder": "длина участка маршрута полета в зонах поражения ЗРК, км",
+      "storeName": "Szrk"
+    },
+    {
+      "inputName": "L",
+      "subInputName": "бп",
+      "placeholder": "глубина боевого порядка аэ, км",
+      "storeName": "Lbp"
+    },
+    {
+      "inputName": "V",
+      "subInputName": "ц",
+      "placeholder": "скорость самолетов боевого порядка, км/мин",
+      "storeName": "Vc"
+    },
+    {
+      "inputName": "N",
+      "subInputName": "ц",
+      "placeholder": "Количество самолетов в боевом порядке",
+      "storeName": "nPlane"
+    }
+  ],
+  [
+    {
+      "inputName": "P",
+      "subInputName": "i",
+      "placeholder": "Величина максимального курсового параметра ЗРК i-го типа",
+      "storeName": "Pi"
+    },
+    {
+      "inputName": "I",
+      "subInputName": "бп",
+      "placeholder": "Ширина боевого порядка подразделения, км",
+      "storeName": "Ibp"
+    },
+    {
+      "inputName": "m",
+      "subInputName": "i",
+      "placeholder": "Штатное количество ЗРК i-го типа противника",
+      "storeName": "mi"
+    },
+    {
+      "inputName": "A",
+      "subInputName": "",
+      "placeholder": "Ширина боевого порядка дивизии противника(км), в полосе пролета",
+      "storeName": "A"
+    },
+    {
+      "inputName": "B",
+      "subInputName": "",
+      "placeholder": "Глубина боевого порядка дивизии противника(км), в полосе пролета",
+      "storeName": "B"
+    },
+    {
+      "inputName": "η",
+      "subInputName": "",
+      "placeholder": "Коэффициент потерь войсковых средств ПВО",
+      "storeName": "n"
+    },
+    {
+      "inputName": "S",
+      "subInputName": "зрк",
+      "placeholder": "Расстояние проходимое самолетом в зоне поражения ЗРК, км",
+      "storeName": "Szrk"
+    },
+    {
+      "inputName": "L",
+      "subInputName": "бп",
+      "placeholder": "глубина боевого порядка аэ, км",
+      "storeName": "Lbp"
+    },
+    {
+      "inputName": "V",
+      "subInputName": "ц",
+      "placeholder": "скорость самолетов боевого порядка, км/мин",
+      "storeName": "Vc"
+    },
+    {
+      "inputName": "N",
+      "subInputName": "ц",
+      "placeholder": "Количество самолетов в боевом порядке",
+      "storeName": "Nplane"
     }
   ]
 ]

@@ -1,25 +1,36 @@
 import React from 'react';
 import './step.css'
 import Fighters from "./odds/Fighters";
+import BigMiddle from "./odds/BigMiddle";
+import Military from "./odds/Military";
+import Zenit from "./odds/Zenit";
 
 const Step = (props) => {
     return (
         <div>
             {props.step === 0 &&
                 <div>
-                    <Fighters changeOdds={props.changeOdds} restart={props.restart}/>
+                    <Fighters changeOdds={props.changeOdds} restart={props.restart}
+                              globalStoreChange={props.globalStoreChange}/>
                 </div>
             }
             {props.step === 1 &&
                 <div>
-                    <h1>Расчет вероятности преодоления противодействия ЗРК большой и средней дальности</h1>
+                    <BigMiddle changeOdds={props.changeOdds} restart={props.restart}
+                               globalStoreChange={props.globalStoreChange}/>
                 </div>
             }
             {props.step === 2 &&
                 <div>
-                    <h1>Расчет вероятности преодоления противодействия войсковых средств ПВО</h1>
+                    <Military changeOdds={props.changeOdds} restart={props.restart}
+                               globalStoreChange={props.globalStoreChange}/>
                 </div>
             }
+            {/*{props.step === 3 &&*/}
+            {/*    <div>*/}
+            {/*        <Zenit changeOdds={props.changeOdds} restart={props.restart}*/}
+            {/*                  globalStoreChange={props.globalStoreChange}/>*/}
+            {/*    </div>}*/}
         </div>
     );
 };

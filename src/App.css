@@ -1,3 +1,5 @@
+
+
 .button {
     padding: 10px 30px;
     margin: 10px;
@@ -5,11 +7,13 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    background: rgba(0, 0, 0, 0.18);
+    background: #206876;
+    color: #5FBDCE;
 }
 
 .button:hover {
-    background: rgba(0, 0, 0, 0.56);
-    box-shadow: 0 0 10px black;
+    background: rgba(55, 182, 206, 0.7);
+    box-shadow: 0 0 10px #37B6CE;
     color: #fff;
+    transition: 0.5s all;
 }

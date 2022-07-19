@@ -9,6 +9,7 @@
 .fighters {
     display: grid;
     justify-items: center;
+    text-align: center;
 }
 
 .fighters > h1 {
@@ -35,13 +36,32 @@
     width: 650px;
     outline: none;
     border: none;
-    background: rgba(0, 0, 0, 0.18);
+    background: #206876;
     border-radius: 10px;
     padding: 5px;
+    color: #61c0d2;
+    font-weight: bold;
+    transition: 1s all;
+}
+::placeholder{
+    color: #61c0d2;
+    font-weight: bold;
 }
 
 .label {
     display: grid;
     grid-template-columns: 100px 1fr;
 
+}
+.select{
+    margin: 10px 0 10px 0 ;
+    width: 400px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: #206876;
+    color: #5FBDCE;
+    transition: 1s all;
 }

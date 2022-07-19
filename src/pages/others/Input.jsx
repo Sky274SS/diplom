@@ -5,7 +5,7 @@ const Input = ({inputName,subInputName,placeholder,storeChange,storeValue}) => {
         <div className='label'>
             <div>{inputName}<span className='span'>{subInputName}</span></div>
       <input
-                type="text"
+                type="number"
                 placeholder={placeholder}
                 title={placeholder}
                 onChange={(e) => {

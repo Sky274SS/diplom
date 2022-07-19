@@ -1,0 +1,81 @@
+.startContainer {
+    display: grid;
+    grid-template-areas:
+    "h h"
+    "n r";
+    grid-template-rows: 200px 1fr;
+    grid-template-columns: 600px 1fr;
+    min-height: 700px;
+    max-height: 700px;
+}
+
+.startContainer > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    grid-area: h;
+
+}
+
+.navbar {
+    display: grid;
+    grid-area: n;
+    padding: 10px;
+
+}
+.navbar > div > div{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #206876;
+    font-size: 22px;
+    border-radius: 20px;
+}
+.navbar > div > div:hover{
+    cursor: pointer;
+    background: rgba(55, 182, 206, 0.7);
+    box-shadow: 0 0 10px #37B6CE;
+    transition: 0.5s all;
+    color: #fff;
+}
+.result {
+    padding: 10px;
+    display: grid;
+    grid-area: r;
+    justify-items: center;
+}
+.resultMenu{
+    display: grid;
+    background: rgba(0, 0, 0, 0.18);
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 25px;
+    width: 350px;
+    text-align: center;
+    justify-items: center;
+}
+.resultMenu:hover{
+    background: rgba(0, 0, 0, 0.3);
+    transition: 1s all;
+}
+.resultMenuActive{
+    background: rgba(0, 0, 0, 0.4);
+}
+.resultMenu > div{
+    display: grid;
+    align-items: center;
+}
+.resultWin{
+    background-color: rgba(0, 128, 0, 0.5);
+}
+.resultFail{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.resultOdd{
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
